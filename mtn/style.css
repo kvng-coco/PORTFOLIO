@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+.header {
+  width: 100%;
+  padding: 1% 5%;
+  background-color: #ffe;
+}
+.header .lte {
+  width: 30%;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .lte span {
+  font-weight: 900;
+}
+.logo_space {
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo_space .logo {
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 0.6% 0;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border: 4px solid #000;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 2%;
+}
+select {
+  float: right;
+}
+.container {
+  width: 90%;
+  height: 82vh;
+  background-color: #ffb330;
+  padding: 10% 0 3%;
+  margin: 1% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 45%;
+}
+.wrapper .login {
+  background-color: #fad747;
+  padding: 1% 2%;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 800;
+  color: #ffe;
+}
+.wrapper form {
+  display: flex;
+  flex-direction: column;
+  padding: 8% 25%;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+label,
+input {
+  margin-bottom: 1%;
+}
+input {
+  border: 1px solid gray;
+  padding: 1% 2%;
+  outline: 0;
+}
+input[type="submit"] {
+  width: 30%;
+  margin: 2% auto;
+  color: #fff;
+  background-color: #ffb330;
+  border: 0;
+  border-radius: 20px;
+  padding: 2%;
+}
+
+.wrapper+p{
+    margin-top: 10%;
+    text-align: center;
+}
+p span{
+    display: block;
+}
