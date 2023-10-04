@@ -1,0 +1,114 @@
+.header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.logo{
+    color: #fff;
+    margin: 0.5%;
+}
+
+.logo_space {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .logo_space .logo {
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 1%;
+    /* padding: 0.6% 0; */
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-right: 2%;
+    background-color: #5e5edf;
+  }
+
+  /* FONTS */
+  .wrapper{
+    color: grey;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+  }
+  span{
+    color: grey;
+    padding: 10%;
+  }
+  
+  /* SECOND CONTAINER */
+  .container{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to bottom #b5e3f5 50%, #fff 50%);
+    transform: translateX(100px);
+
+    /* display: flex; */
+    /* align-items: center;justify-content: center; */
+  }
+  .box1{
+    width: 200px;height: 400px;
+    background-color: #fff;
+  }
+
+  /* DEYOLA */
+  .deyola h1{
+    margin: 1%;
+  }
+  .deyola p{
+    margin: 1%;
+  }
+  .deyola form{
+    margin: 1.5%;
+  }
+  .deyola h3{
+    margin: 1%;
+  }
+  .deyola h3 b{
+    color: #5353f1;
+  }
+
+  /* DOWNLOAD CV */
+  .button{
+    margin: 1%;
+    border-radius: 25px;
+    background: #5353f1;
+    padding: 20px;
+    width: 110px;
+    height: 10px;
+  }
+  .button h5{
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+  } 
+
+  /* WINDOW */
+  .windows{
+    background-color: #fff;
+    width: 100%;height: 500px;
+    /* margin: 5%; */
+    margin-top: 5%;
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+  }
+  /* MAIN */
+  main{
+    width: 100%;height: 400px;
+    background-color: #fff;
+    font-size: 100;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* padding: 0; */
+    
+  }
+  main :hover{
+    color:#5353f1
+  }
